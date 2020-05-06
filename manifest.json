@@ -1,0 +1,17 @@
+{
+  "name": "Telegram Remove Joined",
+  "version": "1.0",
+  "description": "",
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://web.telegram.org/*"],
+      "js": ["telegram.js"]
+    }
+  ]
+}
